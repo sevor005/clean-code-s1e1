@@ -169,3 +169,11 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
   display: none;
 }
+
+.section {
+  margin-top: 20px
+}
+
+.section:last-child {
+  margin-top: 0;
+}
