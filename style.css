@@ -20,12 +20,6 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  .aaa {
-    text-align: center;
-  }
-}
-
 .main {
   display: block;
   width: 500px;
@@ -176,4 +170,10 @@ input[type="text"]:focus {
 
 .todo-section:last-child {
   margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
 }
