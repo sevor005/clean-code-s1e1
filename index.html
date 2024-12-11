@@ -23,7 +23,7 @@
         <div class="todo-section__input-wrap">
           <input
             id="new-todo"
-            class="todo-section__field todo-section__input"
+            class="todo-section__field todo-section__input todo-input"
             type="text"
           >
           <button class="btn btn-add">Add</button>
@@ -33,28 +33,28 @@
       <section class="todo-section">
         <h3 class="todo-section__header">Todo</h3>
 
-        <ul id="todo-incompleted-list">
+        <ul class="todo-section__list" id="todo-incompleted-list">
           <li class="todo-item">
             <input class="todo-item__checkbox" type="checkbox">
-            <label class="todo-section__field">Pay Bills</label>
-            <input class="todo-section__field" type="text">
+            <label class="todo-item__label todo-section__field">Pay Bills</label>
+            <input class="todo-section__field todo-input" type="text">
             <button class="btn btn-edit">Edit</button>
             <button class="btn btn-delete">
-              <img src="./remove.svg" alt="remove">
+              <img class="todo-item__img-delete" src="./remove.svg" alt="remove">
             </button>
           </li>
   
           <li class="todo-item todo-item_edit">
             <input class="todo-item__checkbox" type="checkbox">
-            <label class="todo-section__field">Go Shopping</label>
+            <label class="todo-item__label todo-section__field">Go Shopping</label>
             <input
-              class="todo-section__field"
+              class="todo-section__field todo-input"
               type="text"
               value="Go Shopping"
             >
             <button class="btn btn-edit">Save</button>
             <button class="btn btn-delete">
-              <img src="./remove.svg" alt="remove">
+              <img class="todo-item__img-delete" src="./remove.svg" alt="remove">
             </button>
           </li>
         </ul>
@@ -63,14 +63,14 @@
       <section class="todo-section">
         <h3 class="todo-section__header">Completed</h3>
       
-        <ul id="todo-completed-list">
+        <ul class="todo-section__list" id="todo-completed-list">
           <li class="todo-item">
             <input class="todo-item__checkbox" type="checkbox" checked>
-            <label class="todo-section__field">See the Doctor</label>
-            <input class="todo-section__field" type="text">
+            <label class="todo-item__label todo-section__field">See the Doctor</label>
+            <input class="todo-section__field todo-input" type="text">
             <button class="btn btn-edit">Edit</button>
             <button class="btn btn-delete">
-              <img src="./remove.svg" alt="remove">
+              <img class="todo-item__img-delete" src="./remove.svg" alt="remove">
             </button>
           </li>
         </ul>
